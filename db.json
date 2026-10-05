@@ -1,0 +1,132 @@
+{
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Jeison Peralta Prueba",
+      "correo": "jeison@gmail.com",
+      "password": "123456",
+      "rol": "paciente"
+    },
+    {
+      "id": 2,
+      "nombre": "Administrador",
+      "correo": "admin@medireserva.com",
+      "password": "admin123",
+      "rol": "admin"
+    },
+    {
+      "id": 3,
+      "nombre": "María Prueba",
+      "correo": "maria@gmail.com",
+      "password": "123456",
+      "rol": "paciente"
+    },
+    {
+      "id": 4,
+      "nombre": "Usuario Prueba 4",
+      "correo": "prueba4@gmail.com",
+      "password": "123456",
+      "rol": "paciente"
+    }
+  ],
+  "medicos": [
+    {
+      "id": 1,
+      "nombre": "Laura Gómez",
+      "especialidad": "Medicina General",
+      "disponible": true,
+      "horarios": [
+        "08:00",
+        "09:00",
+        "10:00",
+        "11:00"
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Carlos Rodríguez",
+      "especialidad": "Pediatría",
+      "disponible": true,
+      "horarios": [
+        "08:00",
+        "10:00",
+        "14:00",
+        "15:00"
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Ana Martínez",
+      "especialidad": "Dermatología",
+      "disponible": true,
+      "horarios": [
+        "09:00",
+        "11:00",
+        "13:00",
+        "16:00"
+      ]
+    }
+  ],
+  "reservas": [
+    {
+      "id": 1,
+      "nombrePaciente": "Jeison Peralta",
+      "correoPaciente": "jeison@gmail.com",
+      "medico": "Laura Gómez",
+      "especialidad": "Medicina General",
+      "fecha": "2026-10-05",
+      "hora": "08:00",
+      "estado": "Cancelada"
+    },
+    {
+      "id": 2,
+      "nombrePaciente": "Jeison Peralta Prueba",
+      "correoPaciente": "jeison@gmail.com",
+      "medico": "Laura Gómez",
+      "especialidad": "Medicina General",
+      "fecha": "2026-10-19",
+      "hora": "08:00",
+      "estado": "Cancelada"
+    },
+    {
+      "id": 3,
+      "nombrePaciente": "Jeison Peralta Prueba",
+      "correoPaciente": "jeison@gmail.com",
+      "medico": "Laura Gómez",
+      "especialidad": "Medicina General",
+      "fecha": "2026-10-19",
+      "hora": "08:00",
+      "estado": "Cancelada"
+    },
+    {
+      "id": 4,
+      "nombrePaciente": "Jeison Peralta Prueba",
+      "correoPaciente": "jeison@gmail.com",
+      "medico": "Laura Gómez",
+      "especialidad": "Medicina General",
+      "fecha": "2026-10-05",
+      "hora": "08:00",
+      "estado": "Cancelada"
+    },
+    {
+      "id": 5,
+      "nombrePaciente": "Carlos Pérez",
+      "correoPaciente": "carlos.prueba@gmail.com",
+      "medico": "Laura Gómez",
+      "especialidad": "Medicina General",
+      "fecha": "2026-10-05",
+      "hora": "08:00",
+      "estado": "Cancelada"
+    },
+    {
+      "id": 6,
+      "nombrePaciente": "Jeison Peralta Prueba",
+      "correoPaciente": "jeison@gmail.com",
+      "medico": "Ana Martínez",
+      "especialidad": "Dermatología",
+      "fecha": "2026-10-06",
+      "hora": "13:00",
+      "estado": "Cancelada"
+    }
+  ]
+}

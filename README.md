@@ -1,4 +1,4 @@
-# EduTech Learning
+# MediReserva
 
 Aplicación web SPA desarrollada con React para una startup educativa ficticia.
 
@@ -21,4 +21,4 @@ Aplicación web SPA desarrollada con React para una startup educativa ficticia.
 1. Clonar repositorio
 
 ```bash
-git clone https://github.com/jeisonperalta24/edutech-learning.git
+git clone https://github.com/jeisonperalta24/medireserva.git
